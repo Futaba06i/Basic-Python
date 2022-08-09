@@ -1,5 +1,6 @@
-a, b = map(int, input().split())
-d = a // b
-r = a % b
-f = float(a / b)
-print(f"{d}, {r}, {f:.5f}")
+import math
+p = math.pi
+r = float(input())
+s = p * math.pow(r, 2)
+a = 2.0 * p * r
+print(f"{s:.6f} {a:.6f}")
