@@ -8,5 +8,5 @@ for i in range(n):
 
 for i in range(4):
     for j in range(13):
-        if cards[i][j] = False:
+        if cards[i][j] is False:
             print(pattern[i], j+1)
