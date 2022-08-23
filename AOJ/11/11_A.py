@@ -28,7 +28,7 @@ str = input()
 dice = Dice(num)
 for i in str:
     if i == "E":
-                dice.E()
+        dice.E()
     elif i == "W":
         dice.W()
     elif i == "S":
